@@ -79,4 +79,4 @@ def webhook():
     
     except Exception as e:
         print(f"❌ ERROR EN WEBHOOK: {str(e)}")
-        return "ERROR"
+        return "ok", 200
